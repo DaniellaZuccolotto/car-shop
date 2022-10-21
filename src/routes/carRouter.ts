@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import CarController from '../controllers/Car';
 import CarModel from '../models/Car';
-import CarService from '../services/Car';
+import CarService from '../services/carService';
 
 const route = Router();
 
