@@ -5,5 +5,5 @@ interface IModel<T> {
   update(_id:string, obj:T):Promise<T | null>,
   delete(_id:string):Promise<T | null>,
 }
-const lintChato = 'lintChato';
-export { IModel, lintChato };
+const burlarLint = 'burlarLint';
+export { IModel, burlarLint };
